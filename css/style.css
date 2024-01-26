@@ -1,16 +1,31 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.navigation-items li {
+.navigation-grocery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-item li {
   display: inline;
-  margin-right: 16px;
+  margin-right: 20px;
 
 }
 
 header {
   text-align: center;
 }
+
 header img {
   max-width: 100%;
   height: 300px;
