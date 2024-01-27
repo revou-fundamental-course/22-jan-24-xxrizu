@@ -39,7 +39,7 @@ header img {
 
 .our-product div {
   text-align: center;
-  align-items: center;
+  justify-content: center;
 }
 
 .circle {
@@ -57,7 +57,7 @@ header img {
   justify-content: space-around;
 }
 
-.inquiry.form {
+.inquiry-form {
   display: flex;
   flex-direction: column;
 }
