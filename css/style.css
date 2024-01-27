@@ -13,7 +13,7 @@ body {
 }
 
 .nav-item {
-  list-style: none;
+  list-style-type: none;
 }
 
 .nav-item li {
