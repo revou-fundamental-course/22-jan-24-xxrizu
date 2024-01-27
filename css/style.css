@@ -6,6 +6,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(106, 103, 103);
+  padding: 10px 20px;
 }
 
 .logo {
@@ -14,16 +16,36 @@ body {
 
 .nav-item {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-item li {
+  color: #fff;
   display: inline;
-  margin-right: 20px;
+  margin-right: 0px;
+  padding: 0 10px;
 
 }
 
 header {
   text-align: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-top: 20px;
 }
 
 header img {
