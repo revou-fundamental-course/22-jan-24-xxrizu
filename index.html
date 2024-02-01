@@ -8,16 +8,12 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div>
-      <div class="slider">
-        <div class="slides">
-          <div class="slides"></div>
-          <div class="slides"></div>
-          <div class="slides"></div>
-        </div>
-      </div>
+  <div class="slider">
+        <div class="slides"></div>
+       <div class="slide"></div>
+       <div class="slide"></div>
+       <div class="slide"></div>
   </div>
-
   <nav class="navigation-grocery">
     <img src="assets/logo.png" alt="Logo" class="logo">
     <ul class="nav-item">
@@ -50,18 +46,22 @@
   <div>
       <div class="inquiry-customer">
       <form class="inquiry-form">
-        <label for="name">Name</label>
-        <input type="text" id="name">
+       <div>
+        <label for="name">Name</label> <br>
+        <input id="input-name" name="name" type="text" required placeholder="Full Name">
+       </div>
+        <br>
+      <div>
+        <label for="Email">Email Address</label> <br>
+        <input id="input-email" name="email" type="email" required="true" placeholder="Your Email">
+      </div>
       <br>
-        <label for="Email">Email Address</label>
-        <input type="text" id="name">
-      <br>
-        <label for="Email">What are you interested in?</label>
+        <label id="option" for="option">What are you interested in?</label>
         <select>
           <option value="Vegetables">Vegetables</option>
           <option value="Fruits">Fruits</option>
         </select>
-        <button>Submit</button>
+        <button id="tombol-submit">Submit</button>
       </form>
     </div>
   </div>
