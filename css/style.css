@@ -52,6 +52,17 @@ header img {
   height: 300px;
 }
 
+#our-product{
+  display: grid;
+  margin: 4vw;
+  grid-template-columns: 15dvw 15dvw 15dvw;
+  column-gap: 3dvw;
+  row-gap: 3dvw;
+  align-self: center;
+  grid-template-rows: auto auto;
+  font-size: small;
+}
+
 .our-product {
   display:flex;
   justify-content: space-around;
